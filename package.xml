@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>custom-isaac-ros</name>
+  <version>0.0.0</version>
+  <description>Use custom zed2 rosbags with Isaac ROS packages</description>
+  <maintainer email="dungrup@ncsu.edu">Dhruva Ungrupulithaya</maintainer>
+  <license>Apache</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>isaac_ros_image_proc</depend>
+  <depend>isaac_ros_visual_slam</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <exec_depend>ros2launch</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
